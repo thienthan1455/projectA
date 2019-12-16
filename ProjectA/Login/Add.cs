@@ -34,12 +34,12 @@ namespace Login
             var Gioitinh = this.txtgioitinh.Text;
             var NgaySinh = this.dtpngaysinh.Value;
             var Nickname = this.txtnickname.Text;
-            var Quequan = this.txtquequan.Text;
+            
             var ChieuCao = this.txtchieucao.Text;
             var Vitri = this.txtvitri.Text;
             var Soao = this.txtsoao.Text;
             var clb = this.txtclb.Text;
-            this.Business.AddPlayer(TenCauThu, Gioitinh, NgaySinh, Nickname, Quequan, ChieuCao, Vitri, Soao, clb);
+            this.Business.AddPlayer(TenCauThu, Gioitinh, NgaySinh, Nickname, ChieuCao, Vitri, Soao, clb);
             MessageBox.Show("Create player Successfully");
             this.Close();
         }
