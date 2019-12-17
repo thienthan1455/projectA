@@ -43,11 +43,14 @@
             // 
             // grdplayer
             // 
+            this.grdplayer.AllowUserToAddRows = false;
+            this.grdplayer.AllowUserToDeleteRows = false;
             this.grdplayer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grdplayer.Location = new System.Drawing.Point(0, 185);
             this.grdplayer.Name = "grdplayer";
+            this.grdplayer.ReadOnly = true;
             this.grdplayer.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdplayer.Size = new System.Drawing.Size(663, 150);
+            this.grdplayer.Size = new System.Drawing.Size(739, 150);
             this.grdplayer.TabIndex = 4;
             // 
             // menuStrip1
@@ -58,7 +61,7 @@
             this.btndelete});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(663, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(739, 24);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -76,7 +79,7 @@
             // 
             // txttimkiem
             // 
-            this.txttimkiem.Location = new System.Drawing.Point(174, 98);
+            this.txttimkiem.Location = new System.Drawing.Point(229, 98);
             this.txttimkiem.Name = "txttimkiem";
             this.txttimkiem.Size = new System.Drawing.Size(289, 20);
             this.txttimkiem.TabIndex = 6;
@@ -86,7 +89,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(100, 101);
+            this.label1.Location = new System.Drawing.Point(136, 101);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 7;
@@ -94,7 +97,7 @@
             // 
             // btnsearch
             // 
-            this.btnsearch.Location = new System.Drawing.Point(278, 141);
+            this.btnsearch.Location = new System.Drawing.Point(329, 141);
             this.btnsearch.Name = "btnsearch";
             this.btnsearch.Size = new System.Drawing.Size(75, 23);
             this.btnsearch.TabIndex = 8;
@@ -105,7 +108,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(252, 34);
+            this.label2.Location = new System.Drawing.Point(297, 46);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(135, 31);
             this.label2.TabIndex = 9;
@@ -117,7 +120,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(663, 335);
+            this.ClientSize = new System.Drawing.Size(739, 335);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnsearch);
             this.Controls.Add(this.label1);
