@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FindPlayer));
             this.label10 = new System.Windows.Forms.Label();
             this.txtclb = new System.Windows.Forms.TextBox();
             this.txtsoao = new System.Windows.Forms.TextBox();
@@ -58,11 +59,11 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(179, 9);
+            this.label10.Location = new System.Drawing.Point(169, 9);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(242, 31);
+            this.label10.Size = new System.Drawing.Size(252, 31);
             this.label10.TabIndex = 123;
-            this.label10.Text = "Player Infomation";
+            this.label10.Text = "Player Information";
             // 
             // txtclb
             // 
@@ -309,8 +310,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FindPlayer";
-            this.Text = "FindPlayer";
+            this.Text = "Information";
             this.ResumeLayout(false);
             this.PerformLayout();
 
