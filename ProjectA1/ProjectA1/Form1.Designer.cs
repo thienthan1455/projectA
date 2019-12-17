@@ -46,7 +46,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbshowpassword.AutoSize = true;
             this.cbshowpassword.BackColor = System.Drawing.Color.Transparent;
-            this.cbshowpassword.Location = new System.Drawing.Point(173, 184);
+            this.cbshowpassword.Location = new System.Drawing.Point(159, 183);
             this.cbshowpassword.Name = "cbshowpassword";
             this.cbshowpassword.Size = new System.Drawing.Size(102, 17);
             this.cbshowpassword.TabIndex = 23;
@@ -71,7 +71,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnlogin.BackColor = System.Drawing.SystemColors.Control;
-            this.btnlogin.Location = new System.Drawing.Point(84, 222);
+            this.btnlogin.Location = new System.Drawing.Point(72, 222);
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.Size = new System.Drawing.Size(75, 23);
             this.btnlogin.TabIndex = 21;
@@ -83,7 +83,7 @@
             this.txtpassword.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtpassword.Location = new System.Drawing.Point(144, 147);
+            this.txtpassword.Location = new System.Drawing.Point(129, 147);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.Size = new System.Drawing.Size(183, 20);
             this.txtpassword.TabIndex = 20;
@@ -94,7 +94,7 @@
             this.txtaccount.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtaccount.Location = new System.Drawing.Point(144, 90);
+            this.txtaccount.Location = new System.Drawing.Point(129, 90);
             this.txtaccount.Name = "txtaccount";
             this.txtaccount.Size = new System.Drawing.Size(183, 20);
             this.txtaccount.TabIndex = 19;
@@ -107,7 +107,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(177, 33);
+            this.label3.Location = new System.Drawing.Point(164, 27);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 31);
             this.label3.TabIndex = 18;
@@ -120,7 +120,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblpassword.AutoSize = true;
             this.lblpassword.BackColor = System.Drawing.Color.Transparent;
-            this.lblpassword.Location = new System.Drawing.Point(56, 150);
+            this.lblpassword.Location = new System.Drawing.Point(46, 150);
             this.lblpassword.Name = "lblpassword";
             this.lblpassword.Size = new System.Drawing.Size(53, 13);
             this.lblpassword.TabIndex = 17;
@@ -133,7 +133,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblaccount.AutoSize = true;
             this.lblaccount.BackColor = System.Drawing.Color.Transparent;
-            this.lblaccount.Location = new System.Drawing.Point(56, 93);
+            this.lblaccount.Location = new System.Drawing.Point(46, 93);
             this.lblaccount.Name = "lblaccount";
             this.lblaccount.Size = new System.Drawing.Size(47, 13);
             this.lblaccount.TabIndex = 16;

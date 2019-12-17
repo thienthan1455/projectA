@@ -21,6 +21,12 @@ namespace ProjectA1
             var player = db.Cauthus.Find(id);
             return player;
         }
+        public Cauthu[] GetPlayerr(string name)
+        {
+            var db = new QLCTEntities1();
+            var player = db.Cauthus.Where(item => item.TenCauThu.Equals(name)).ToArray();
+            return player;
+        }
         public void AddPlayer(string TenCauThu, string Gioitinh, DateTime NgaySinh, string Nickname, string Quequan, string ChieuCao, string Vitri, string Soao, string clb)
         {
             var db = new QLCTEntities1();

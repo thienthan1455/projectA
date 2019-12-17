@@ -31,10 +31,10 @@ namespace ProjectA1
 
         void btnsearch_Click(object sender, EventArgs e)
         {
-            var id = int.Parse(this.txttimkiem.Text);
-            var item = this.Business.GetPlayer(id);
+            var name = this.txttimkiem.Text;
+            var item = this.Business.GetPlayerr(name);
 
-            new ProjectA1.FindPlayer(id).ShowDialog();
+            new ProjectA1.FindPlayer(name).ShowDialog();
         }
 
 
