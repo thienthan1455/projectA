@@ -7,12 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace ProjectA1
 {
     public partial class Index : Form
     {
         private Logiclayer Business;
+        private Edit edit;
         public Index()
             
         {
@@ -23,8 +25,22 @@ namespace ProjectA1
             this.btndelete.Click += btndelete_Click;
             this.grdplayer.DoubleClick += grdplayer_DoubleClick;
             LoadAllPlayer();
+            this.btnsearch.Click += btnsearch_Click;
             
         }
+
+        void btnsearch_Click(object sender, EventArgs e)
+        {
+            var id = int.Parse(this.txttimkiem.Text);
+            var item = this.Business.GetPlayer(id);
+
+            new ProjectA1.FindPlayer(id).ShowDialog();
+        }
+
+
+
+
+      
 
         void grdplayer_DoubleClick(object sender, EventArgs e)
         {
@@ -65,10 +81,11 @@ namespace ProjectA1
             this.LoadAllPlayer();
         }
 
-
         void Index_Load(object sender, EventArgs e)
         {
             this.LoadAllPlayer();
+
         }
+       
     }
 }
